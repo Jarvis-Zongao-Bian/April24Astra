@@ -63,7 +63,7 @@ WHERE Color IN ('Black', 'Blue');
 
 -- Write a query to get a result set on products that begins with the letter S. 
 
-SELECT ProductID, Name, Color, ListPrice
+SELECT *
 FROM Production.Product
 WHERE Name LIKE 'S%';
 
